@@ -1,0 +1,15 @@
+Name:          project
+Version:       0.1
+Synopsis:      Antra uzduotis
+Description:
+  Programa http client based kryziukai ir nuliukai.
+Author:        Vieslav Lapin
+Maintainer:    vieslapin@gmail.com
+Cabal-Version: >= 1.2
+executable simple
+  build-depends:  base >= 2
+				         ,http-client
+				         ,tuple
+				         ,byteString
+  main-is:        Main.hs
+  hs-source-dirs: prog1
